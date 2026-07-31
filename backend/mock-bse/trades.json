@@ -1,0 +1,11 @@
+[
+  {
+    "tradeId": 1,
+    "clientId": 1,
+    "symbol": "RELIANCE",
+    "quantity": 10,
+    "price": 1500,
+    "brokerage": 50,
+    "tradeDate": "2026-07-28"
+  }
+]

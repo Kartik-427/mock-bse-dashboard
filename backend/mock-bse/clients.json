@@ -1,0 +1,14 @@
+[
+  {
+    "clientId": 1,
+    "name": "Rahul Sharma",
+    "email": "rahul@example.com",
+    "city": "Mumbai"
+  },
+  {
+    "clientId": 2,
+    "name": "Priya Patel",
+    "email": "priya@example.com",
+    "city": "Ahmedabad"
+  }
+]
