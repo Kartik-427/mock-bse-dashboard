@@ -25,7 +25,7 @@ const syncData = async () => {
         console.error("Client Sync Failed:", error.message);
     }
 
-    // Trades
+    
     try {
         const trades = await retry(fetchTrades);
 
@@ -39,7 +39,7 @@ const syncData = async () => {
         console.error("Trade Sync Failed:", error.message);
     }
 
-    //Employee
+   
     try {
         const employees = await retry(fetchEmployees);
 
@@ -53,7 +53,7 @@ const syncData = async () => {
         console.error("Employee Sync Failed:", error.message);
     }
 
-    //Mapping
+    
     try {
         const mappings = await retry(fetchMappings);
 
