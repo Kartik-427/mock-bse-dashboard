@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const clientSchema = new mongoose.Schema({
   clientId: {
-    type: Number,
+    type: String,
     required: true,
     unique: true,
   },

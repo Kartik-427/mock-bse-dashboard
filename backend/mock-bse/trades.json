@@ -1,7 +1,7 @@
 [
   {
-    "tradeId": 1,
-    "clientId": 1,
+    "tradeId":"T001",
+    "clientId":"C001",
     "symbol": "RELIANCE",
     "quantity": 10,
     "price": 1500,

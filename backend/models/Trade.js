@@ -2,12 +2,12 @@ import mongoose from "mongoose";
 
 const tradeSchema = new mongoose.Schema({
   tradeId: {
-    type: Number,
+    type: String,
     required: true,
     unique: true,
   },
   clientId: {
-    type: Number,
+    type: String,
     required: true,
   },
   symbol: String,

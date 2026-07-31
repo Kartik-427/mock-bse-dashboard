@@ -7,7 +7,6 @@ const bseApi = axios.create({
 
 export default bseApi;
 
-
 export const fetchClients = async () => {
   const response = await bseApi.get("/clients");
   return response.data;
@@ -20,12 +19,12 @@ export const fetchTrades = async () => {
 
 
 export const fetchEmployees = async () => {
-  const response = await axios.get("http://localhost:5000/api/internal/employees");
+  const response = await bseApi.get("/employees");
   return response.data;
 };
 
 export const fetchMappings = async () => {
-  const response = await axios.get("http://localhost:5000/api/internal/mappings");
+  const response = await bseApi.get("/mappings");
   return response.data;
 };
 

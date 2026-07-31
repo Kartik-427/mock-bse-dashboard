@@ -1,6 +1,6 @@
 [
   {
-    "employeeId": 1,
-    "clientId": 1
+    "employeeId":"E001",
+    "clientId":"C001"
   }
 ]

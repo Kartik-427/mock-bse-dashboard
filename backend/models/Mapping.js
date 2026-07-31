@@ -2,11 +2,11 @@ import mongoose from "mongoose";
 
 const mappingSchema = new mongoose.Schema({
   employeeId: {
-    type: Number,
+    type: String,
     required: true,
   },
   clientId: {
-    type: Number,
+    type: String,
     required: true,
   },
 });

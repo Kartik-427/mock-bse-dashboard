@@ -1,12 +1,12 @@
 [
   {
-    "clientId": 1,
+    "clientId":"C001",
     "name": "Rahul Sharma",
     "email": "rahul@example.com",
     "city": "Mumbai"
   },
   {
-    "clientId": 2,
+    "clientId":"C002",
     "name": "Priya Patel",
     "email": "priya@example.com",
     "city": "Ahmedabad"
