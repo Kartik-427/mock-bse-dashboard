@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const bseApi = axios.create({
-  baseURL: "http://localhost:5000/api/bse",
+  baseURL: process.env.BSE_API_URL,
   timeout: 30000,
 });
 
