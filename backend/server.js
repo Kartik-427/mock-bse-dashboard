@@ -29,13 +29,12 @@ app.get("/", (req, res) => {
 app.use("/api/bse", bseRoutes);
 app.use("/api/internal", internalRoutes);
 
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 server.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 
     startSync();
-
 });
 
 
